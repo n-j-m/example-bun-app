@@ -21,7 +21,7 @@ services:
     value: 1.1.4 
   repo: https://github.com/robdimarco-render/example-bun-app
   branch: main
-  plan: starter
+  plan: free
   region: oregon
   buildCommand: bun install
   startCommand: bun server.ts
